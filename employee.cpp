@@ -35,7 +35,28 @@ void Employee::setWarnings(int warnings) { this->warnings = warnings; }
 	 * @return 
 	 * */
 
+    
+
 int Employee::seniorityLevel(){
     //Code [Use If/Else]
+    double yearService 
+
+    if (yearService >= 10) {
+        return int 3;
+
+    }
+    if (yearService >= 5) {
+        return int 2;
+    }
+    
+    if (yearService >= 1) {
+        return int 1;
+
+    }
+    else {
+        return int 0;
+
+    }
+
     return -1;
 }
